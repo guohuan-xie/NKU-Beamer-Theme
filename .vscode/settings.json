@@ -19,7 +19,10 @@
         "-g",
         "-xelatex",
         "%DOC%"
-      ]
+      ],
+      "env": {
+        "PATH": "/Library/TeX/texbin:/opt/homebrew/bin:${env:PATH}"
+      }
     }
   ]
 }
